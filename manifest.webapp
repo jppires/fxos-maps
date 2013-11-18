@@ -1,0 +1,14 @@
+{
+  "version": "1",
+  "name": "JC Maps",
+  "launch_path": "/index.html",
+  "description": "Cities and dates",
+  "icons": {
+    "128": "/image/icon.png"
+  },
+  "developer": {
+    "name": "João Paulo e Ana Carolina"
+  },
+  "installs_allowed_from": ["*"],
+  "default_locale": "en"
+}
