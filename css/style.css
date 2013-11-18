@@ -1,0 +1,117 @@
+@import url(table.css);
+
+
+html { 
+ height: 100%; 
+ }
+ 
+ body { 
+ height: 100%; 
+ margin: 0px auto;
+ padding: 0px;
+background: #333333;
+}
+
+ #map_canvas { 
+ width:50%; 
+ height:50%;
+ margin: 0px auto;
+ border: 2px solid #696969;
+ margin-top: 5%;
+ }
+ 
+ #divNewCity{
+	width:50%; 
+	height:8%;
+	 margin: 0px auto;
+	 margin-bottom: 80px;
+ 
+ }
+ 	
+legend{
+	font-size: 0,7em;
+	font-weight: bold;
+}	
+
+#calculo{
+	width:50%; 
+	 margin: 0px auto;
+}
+
+.origDest{
+	padding-right: 2%;
+}
+ 
+.addCidade{
+	position: relative;
+	margin-right: 10%;
+	
+}
+
+#padroes{
+	margin: 20px;
+	
+}
+ 
+ img{
+	cursor: pointer;
+ }
+ 
+ form{
+	font-size: 1.3em;
+	position: absolute;
+	left: 900px;
+ }
+ 
+#cidades{
+	margin-top: 50px;
+}
+
+fieldset{
+	color: #DCDCDC;
+	border: 2px solid #696969;	
+	margin-top: 5%;
+}
+
+input{
+	background: #DCDCDC;
+}
+
+/* Smartphones*/
+ @media screen and (max-width: 480px){
+  /* body { font-size: 80%; background: red; } */
+
+
+ #map_canvas { 
+ width:100%; 
+ height:55%;
+ margin: 0px auto;
+ border: 2px solid  #696969;
+ margin-top: 5%;
+ }
+
+ #cidades{
+	margin-top: 135px;
+	width: 100%;
+}
+
+
+}
+
+/* Tablets*/
+ @media screen and (min-width: 481px) and (max-width: 1024px){
+ 	/*body { font-size: 80%; background: blue; }*/
+
+ 	#map_canvas { 
+ width:60%; 
+ height:40%;
+ margin: 0px auto;
+ border: 2px solid #696969;
+ margin-top: 5%;
+ }
+
+ #cidades{
+	margin-top: 80px;
+}
+
+ }

@@ -1,0 +1,19 @@
+#cidades caption {font-size: 1.7em; color: black; text-align: center; background: grey;}
+#cidades {margin: 0px auto; padding: 0; border-collapse: collapse; width: 60%;}
+#cidades td, 
+#cidades th {padding: 10px 4px; border-bottom: 1px solid #EEE;}
+#cidades td a {color: #444; text-decoration: none; text-align: right;}
+#cidades td a,
+#cidades th a {display: block; width: 100%;}
+#cidades td a:hover {background: #444; color: #FFF;}
+#cidades tfoot th {text-align: right;}
+#cidades th {text-align: left;}
+#cidades th a {color: #F06; text-decoration: none; font-size: 1.1em;}
+#cidades th a:visited {color: #F69;}
+#cidades th a:hover {color: #F06; text-decoration: underline;}
+#cidades thead tr, 
+#cidades tfoot tr {color: #555; font-size: 0.8em;}
+#cidades tr {font: 12px sans-serif; background: url(prettyinpink_row.png) repeat-x #F8F8F8; color: #666;}
+#cidades tr:hover {background: #FFF;}
+
+/*#00008B*/
