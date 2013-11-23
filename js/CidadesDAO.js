@@ -3,46 +3,6 @@ var CidadesDAO = {
 
 		cidades: [],
 		
-	addCidade: function(id){
-		var cidade={};
-		
-		switch(id){
-			case 'pc':
-				cidade.id = 'pc';
-				cidade.nome = 'Poços de Caldas';
-				cidade.lat = -21.789469;
-				cidade.lon = -46.562233;
-			 break;
-			 case 'var':
-				cidade.id = 'var';
-				cidade.nome = 'Varginha';
-				cidade.lat = -21.549217;
-				cidade.lon = -45.426807;
-			 break;
-			 case 'ita':
-				cidade.id = 'ita';
-				cidade.nome = 'Itajubá';
-				cidade.lat = -22.42531;
-				cidade.lon = -45.44466;
-			 break;
-			 case 'tc':
-				cidade.id = 'tc';
-				cidade.nome = 'Três Corações';
-				cidade.lat = -21.709589;
-				cidade.lon = -45.267649;
-			 break;
-			 case 'pa':
-				cidade.id = 'pa';
-				cidade.nome = 'Pouso Alegre';
-				cidade.lat = -22.23412040;
-				cidade.lon = -45.93325690;
-		}
-				
-			CidadesDAO.cidades.push(cidade);
-			Table.add(cidade);
-	
-	},
-		
 		//retorna os dados da cidade a partir do id informado
 	 get: function(cidadeId) {
 		var cidadeIndex = CidadesDAO.getCidadeIndex(cidadeId),
