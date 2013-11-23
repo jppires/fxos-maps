@@ -129,11 +129,21 @@ var Index = {
 		//Mostra as cidades por data
 		relatorio: function(cidades) {
 
-				if(cidades.length > 0){
-					alert("Cidades visitadas: "+cidades);
-					}else{
-						alert("Não há cidades nesta data");
-					}
+			switch (cidades.length){
+				
+				case (0):
+					alert("Não há cidades nesta data");
+				break;
+
+				case (1):
+					alert(cidades.length+" cidade visitada nesta data: "+cidades);
+				break;
+
+				default:
+					alert(cidades.length+" cidades visitadas nesta data, são elas: "+cidades);
+			}
+
+
 		}
 
 			
